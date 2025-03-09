@@ -4,6 +4,10 @@ Tools Used - ChatGPT https://chatgpt.com/, Stackoverflow http://stackoverflow.co
 
 *This package is designed for searching the PubMed database and retrieving data, including the paper’s ID, title, publication date, non-academic authors, and their metadata.*
 
+INSTALL:
+
+`pip install fetch-med`
+
 **WITH** command-line syntax:
 --
 - -h,--help  : show this help message and exit
