@@ -21,7 +21,7 @@ INSTALL:
 
 For Example:
 
-`get-papers-list --debug --query covid-19 --force -c 2`
+`get-papers-list --debug --query covid-19 --force -c 2 -g 1`
 
 **WITHOUT** command-line syntax:
 --
@@ -31,7 +31,7 @@ Run: `get-papers-list`
 _____
 Note :
 - *If no file or incorrect file path is given then output will be printed on console*
-- *Dont include -e or --ext to run the program or it will give you list of supported extentions*
+- *Dont include -e or --ext to run the program or it will give you list of supported extensions*
 
 
 
