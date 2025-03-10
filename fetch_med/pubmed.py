@@ -154,7 +154,7 @@ class Fetch:
             to_get = "Paper Metadata"
             params["retmode"] = "xml"
             url_sub_path = "efetch"
-            params["id"] = ",".join(i for i in self._ids["value"])
+            params["id"] = ",".join(i for i in self._ids["value"][:self.limit_article])
             logger.debug("fetch param data is added with ids")
 
         logger.info(f"Searching for {to_get}")
