@@ -1,6 +1,17 @@
 # Pubmed-Paper-Fetcher-and-Processor
 
-Tools Used - ChatGPT https://chatgpt.com/, Stackoverflow http://stackoverflow.com/
+**Research tools** - ChatGPT https://chatgpt.com/, Stackoverflow http://stackoverflow.com/
+
+**External Tools**- 
+- requests → To send and receive data
+- deep-translator → To translate
+- bs4 & lxml → To parse XML
+- pandas → To save data in .csv and .xlsx file
+- openpyxl → Data to .xlsx converting engine.
+
+`Tested on Python version 3.8 and 3.13`
+*(Package Supports python -V 3.8 or higher)*
+
 
 *This package is designed for searching the PubMed database and retrieving data, including the paper’s ID, title, publication date, non-academic authors, and their metadata.*
 
