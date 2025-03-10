@@ -11,7 +11,7 @@ INSTALL:
 **WITH** command-line syntax:
 --
 
-<!-- |  Syntax   |     |
+|  Syntax   |     |
 |-----|-----|
 | -h,--help   | show this help message and exit   |
 | -d,--debug   | debug the program   |
@@ -20,16 +20,16 @@ INSTALL:
 | --force   | force article to be added even if author is not present   |
 | -g,--get   | max number of articles to be present in output. By default all   |
 | -c,--count   | max number of articles to fetch and parse. By default all   |
-| -e,--ext   | supports: .json, .csv and .xlsx   | -->
+| -e,--ext   | supports: .json, .csv and .xlsx   |
 
-- -h,--help  : show this help message and exit
+<!-- - -h,--help  : show this help message and exit
 - -d,--debug : debug the program
 - -q,--query : query to get papers
 - -f,--file  : path of the output file
 - --force    : force article to be added even if author is not present
 - -g,--get   : max number of articles to be present in output. By default all
 - -c,--count : max number of articles to fetch and parse. By default all
-- -e,--ext   : supports: .json, .csv and .xlsx
+- -e,--ext   : supports: .json, .csv and .xlsx -->
 
 For Example:
 
